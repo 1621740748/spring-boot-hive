@@ -1,3 +1,5 @@
+server:
+  port: 9999
 hive:
   url: jdbc:hive2://127.0.0.1:10000/hive
   driver-class-name: org.apache.hive.jdbc.HiveDriver
