@@ -1,5 +1,5 @@
 hive:
-  url: jdbc:hive2://172.16.250.234:10000/hive
+  url: jdbc:hive2://127.0.0.1:10000/hive
   driver-class-name: org.apache.hive.jdbc.HiveDriver
   type: com.alibaba.druid.pool.DruidDataSource
   user: root
