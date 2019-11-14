@@ -42,6 +42,10 @@
             		<groupId>javax.servlet</groupId>
             		<artifactId>servlet-api</artifactId>
             	</exclusion>
+            	<exclusion>
+            		<groupId>jdk.tools</groupId>
+            		<artifactId>jdk.tools</artifactId>
+            	</exclusion>
             </exclusions>
         </dependency>
         <dependency>
@@ -84,6 +88,10 @@
             	<exclusion>
             		<groupId>org.eclipse.jetty</groupId>
             		<artifactId>jetty-security</artifactId>
+            	</exclusion>
+            	<exclusion>
+            		<groupId>jdk.tools</groupId>
+            		<artifactId>jdk.tools</artifactId>
             	</exclusion>
             </exclusions>
         </dependency>
